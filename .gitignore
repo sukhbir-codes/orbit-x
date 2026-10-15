@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Machine Learning & Large Weights
+*.onnx
+*.pt
+*.pth
+*.parquet
+*.h5
+
+# Local IDE & OS configurations
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Environment variables
+.env
+.env.local
